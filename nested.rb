@@ -14,9 +14,9 @@ def hopper
           :languages => ["C"]
         }
      }
+     
   programmer_hash[:grace_hopper]
 end
-
 
 
 
@@ -36,6 +36,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     
   programmer_hash[:alan_kay][:known_for]
 end
 
@@ -57,6 +58,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     
   programmer_hash[:dennis_ritchie][:languages][0]
 end
 
@@ -94,8 +96,6 @@ end
 
 
 
-
-
 def changing_alan
 	programmer_hash = 
  		{
@@ -117,12 +117,6 @@ def changing_alan
      programmer_hash[:alan_kay][:known_for] = alans_new_info
      programmer_hash
 end
-
-
-
-
-
-
 
 
 
