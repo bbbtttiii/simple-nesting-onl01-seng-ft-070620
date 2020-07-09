@@ -88,8 +88,18 @@ def adding_matz
         }
      }
 
-    
+  programmer_hash[:yukihiro_matsumoto]
 end
+
+
+
+
+
+
+
+
+
+
 
 def changing_alan
 	programmer_hash = 
@@ -112,6 +122,14 @@ def changing_alan
      
      
 end
+
+
+
+
+
+
+
+
 
 def adding_to_dennis
 	programmer_hash = 
